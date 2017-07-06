@@ -4,7 +4,7 @@ server:
 spring:
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
   datasource:
     url: "jdbc:mysql://192.168.88.211:3308/spring_db"
     username: admin
