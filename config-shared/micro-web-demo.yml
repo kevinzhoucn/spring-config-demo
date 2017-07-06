@@ -1,2 +1,11 @@
 server:
   port: 9100
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: "jdbc:mysql://192.168.88.211:3308/spring_db"
+    username: admin
+    password: password
