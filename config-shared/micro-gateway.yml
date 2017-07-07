@@ -20,7 +20,7 @@ zuul:
     micro-web-demo:
       path: /web/**
       serviceId: micro-web-demo
-      stripPrefix: true
+      stripPrefix: false 
       sensitiveHeaders:
 
 server:
