@@ -1,0 +1,12 @@
+server:
+  context-path: /lora
+  port: 9101
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: "jdbc:mysql://mysql_db:3306/spring_db"
+    username: admin
+    password: password

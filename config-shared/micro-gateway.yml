@@ -20,7 +20,12 @@ zuul:
     micro-web-demo:
       path: /web/**
       serviceId: micro-web-demo
-      stripPrefix: false 
+      stripPrefix: false
+      sensitiveHeaders:
+    micro-web-demo:
+      path: /lora/**
+      serviceId: micro-loraflow
+      stripPrefix: false
       sensitiveHeaders:
 
 server:
