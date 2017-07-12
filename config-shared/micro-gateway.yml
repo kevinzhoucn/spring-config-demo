@@ -22,7 +22,7 @@ zuul:
       serviceId: micro-web-demo
       stripPrefix: false
       sensitiveHeaders:
-    micro-web-demo:
+    micro-web-lora:
       path: /lora/**
       serviceId: micro-loraflow
       stripPrefix: false
